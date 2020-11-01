@@ -8,7 +8,8 @@ const Api = () => {
     
   const Api_id = process.env.REACT_APP_API_ID;
   const Api_key = process.env.REACT_APP_API_KEY;
-
+  let sample = process.env.REACT_APP_Sample;
+    console.log(process.env.REACT_APP_Sample)
   console.log(process.env.REACT_APP_API_ID)
 
   useEffect(() => {
