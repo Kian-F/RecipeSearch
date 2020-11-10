@@ -5,16 +5,19 @@ import "./App.css";
 
 function App() {
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("")
+  const [query, setQuery] = useState("");
+
   const getInput = (e) => {
     setSearch(e.target.value);
     console.log(search);
   };
-  const setInput = (e)=>{
+
+  const setInput = (e) => {
     e.preventDefault();
-    setQuery(search)
-    setSearch("")
-  }
+    setQuery(search);
+    setSearch("");
+  };
+
   return (
     <div className="App">
       <form className="search-form" onSubmit={setInput}>
@@ -27,7 +30,7 @@ function App() {
         <button className="search-button" type="submit">
           Search
         </button>
-        <Api query={query}/>
+        <Api query={query} />
       </form>
     </div>
   );

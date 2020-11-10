@@ -25,6 +25,7 @@ const Api = (props) => {
           title={recipe.recipe.label}
           Calories={recipe.recipe.calories}
           image={recipe.recipe.image}
+          ingredientLines={recipe.recipe.ingredientLines}
         />
       ))}
     </div>
