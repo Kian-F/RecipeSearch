@@ -19,7 +19,7 @@ const Api = (props) => {
   };
 
   return (
-    <div>
+    <div className="recipes">
       {recipes.map((recipe) => (
         <Recipe
           title={recipe.recipe.label}
