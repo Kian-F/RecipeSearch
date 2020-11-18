@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   min-height: 100vh;
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
 }
 
 .search-form{
@@ -10,6 +10,18 @@
   justify-content:center;
   align-items: center;
 
+}
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px
+}
+
+.search-button{
+  background-color: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+  border:none;
+  padding: 10px 20px;
+  color: white;
 }
 
 .recipes{
